@@ -32,3 +32,7 @@ Restart Docker:
 
     sudo systemctl daemon-reload
     sudo systemctl restart docker
+   
+Login:
+    
+    sudo docker login 192.168.8.113:5000
