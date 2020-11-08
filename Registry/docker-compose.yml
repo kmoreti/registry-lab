@@ -11,6 +11,6 @@ services:
       - REGISTRY_AUTH_HTPASSWD_PATH=/auth/htpasswd
       - REGISTRY_AUTH_HTPASSWD_REALM='Registry Realm'
     volumes:
-      - /home/kmserver/registry-lab/Registry/registry-config.yml:/etc/docker/registry/config.yml
-      - /home/kmserver/registry-lab/Registry/registry:/var/lib/registry
-      - /home/kmserver/registry-lab/Registry/auth:/auth
+      - $HOME/registry-lab/Registry/registry-config.yml:/etc/docker/registry/config.yml
+      - $HOME/registry-lab/Registry/registry:/var/lib/registry
+      - $HOME/registry-lab/Registry/auth:/auth
